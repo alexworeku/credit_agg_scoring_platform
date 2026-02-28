@@ -1,0 +1,12 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+data/
+customer_portal.db
+customer_portal/portal_auth.db
+customer_portal/frontend_dist/
+
+customer_portal/frontend_react/node_modules/
+

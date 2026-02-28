@@ -1,0 +1,44 @@
+{
+  "feature_columns": [
+    "total_accounts",
+    "account_age_days",
+    "avg_balance",
+    "max_balance",
+    "min_balance",
+    "total_loans",
+    "active_loans",
+    "closed_loans",
+    "total_payments",
+    "late_payments",
+    "late_payment_ratio",
+    "max_days_past_due",
+    "avg_days_past_due",
+    "total_debt",
+    "debt_to_income_ratio",
+    "credit_utilization",
+    "account_stability"
+  ],
+  "auc": 0.740328554963092,
+  "train_rows": 284876,
+  "valid_rows": 71219,
+  "base_default_rate": 0.07904913014785381,
+  "probability_calibration": {
+    "method": "platt_logit",
+    "intercept": -2.3946103913682166,
+    "coef": 1.1236752427476158,
+    "valid_brier_raw": 0.19584866463438133,
+    "valid_brier_calibrated": 0.06501381722579343
+  },
+  "scorecard": {
+    "method": "log_odds",
+    "base_score": 600.0,
+    "base_odds": 11.650360581192938,
+    "pdo": 20.0,
+    "min_score": 300,
+    "max_score": 850
+  },
+  "risk_bands": {
+    "low_max_default_probability": 0.05,
+    "medium_max_default_probability": 0.15
+  }
+}

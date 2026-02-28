@@ -1,0 +1,9 @@
+pyspark==3.5.2
+lightgbm==4.5.0
+numpy==1.26.4
+scikit-learn==1.5.1
+fastapi==0.115.0
+uvicorn==0.30.6
+pyarrow==17.0.0
+sqlalchemy==2.0.36
+psycopg[binary]==3.2.3
