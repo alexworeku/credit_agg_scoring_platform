@@ -1,5 +1,8 @@
 # Credit Aggregation & Scoring Platform (Spark MVP)
 
+![Demo](https://drive.google.com/uc?export=view&id=1Zs5Jp_jFtz9c3MBqREOi6feIFvTW5gZg)
+
+
 This implementation follows a medallion architecture:
 
 1. Bronze: raw source records + metadata
