@@ -1,4 +1,4 @@
-# Credit Aggregation & Scoring Platform (Spark MVP)
+# ECIN (Ethiopian Credit Intelligence Network)
 
 ![Demo](https://drive.google.com/uc?export=view&id=1Zs5Jp_jFtz9c3MBqREOi6feIFvTW5gZg)
 
